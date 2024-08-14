@@ -7,7 +7,7 @@ const port = process.env.PORT || 3000;
 const mongoUrl = process.env.MONGODB_URL;
 // console.log(mongoUrl);
 //API_URL=https://s3.amazonaws.com/roxiler.com/product_transaction.json
-//MONGODB_URL=mongodb+srv://cwpalade97:Chetan1819@cluster0.orhc1.mongodb.net/
+//MONGODB_URL=mongodb+srv://cwpalade97:Chetan1819@cluster0.orhc1.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
 app.use(cors());
 
 // Connecting to MongoDB Database
